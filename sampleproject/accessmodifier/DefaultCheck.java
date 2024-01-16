@@ -7,6 +7,7 @@ public class DefaultCheck {
 		DefaultSample obj=new DefaultSample();
 		//instance variable a can be accessed inside same package
 		System.out.println(obj.a);
+		
 
 	}
 

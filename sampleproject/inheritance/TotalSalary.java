@@ -4,7 +4,6 @@ public class TotalSalary extends SalaryCalculation{
 	double total;
 	
 	public static void main(String[] args) {
-		Scanner input=new Scanner(System.in);
 		TotalSalary obj=new TotalSalary();
 		obj.input();
 		System.out.println("***Salary Slip***");
