@@ -1,5 +1,5 @@
 package superkeyword;
-
+//super is used to refer immediate parent class instance variable
 public class Animal {
 	//variable color of class Animal
 	String color="White";
