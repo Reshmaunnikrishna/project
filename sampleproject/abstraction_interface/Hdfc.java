@@ -4,11 +4,11 @@ public class Hdfc implements Rbi{
 
 	public static void main(String[] args) {
 		Rbi obj=new Hdfc();
-		obj.recurringDeposit();
+		obj.recurringDeposit(3000.5,7);
 		
 	}
 	
-	public void recurringDeposit()
+	public void recurringDeposit(double amount,int duration)
 	{
 		double interest=amount*interest_rate*duration;
 		double maturity_amt=amount+interest;
