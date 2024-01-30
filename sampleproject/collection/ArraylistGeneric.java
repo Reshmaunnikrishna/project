@@ -10,8 +10,6 @@ public class ArraylistGeneric {
 		String s=list.get(0);
 		//Collections.sort(list);
 		System.out.println(s);
-		
-		
 		Iterator itr=list.iterator();
 		//checking for next element
 		while(itr.hasNext())
@@ -22,6 +20,7 @@ public class ArraylistGeneric {
 		//removed element printed
 		System.out.println(list.remove(1));
 		System.out.println(list.size());
+		
 	}
 
 }
