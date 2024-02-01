@@ -1,9 +1,11 @@
 package collection;
+
 import java.util.*;
+
 public class VectorSample {
 
 	public static void main(String[] args) {
-		Vector<String> vec=new Vector();
+		Vector<String> vec = new Vector();
 		vec.add("Lion");
 		vec.add("Tiger");
 		vec.add("Dog");

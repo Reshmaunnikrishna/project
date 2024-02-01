@@ -3,8 +3,8 @@ package string;
 public class SampleStringBuilder {
 
 	public static void main(String[] args) {
-		
-		StringBuilder s=new StringBuilder("Hello");
+
+		StringBuilder s = new StringBuilder("Hello");
 		System.out.println(s);
 		s.append("Java");
 		System.out.println(s);

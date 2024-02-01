@@ -1,22 +1,21 @@
 package practiceClass;
+
 //super
-public class Cat extends Animal{
+public class Cat extends Animal {
 	public static void main(String[] args) {
-		Cat obj=new Cat();
+		Cat obj = new Cat();
 		obj.print();
-		
+
 	}
-	
-	public void eat()
-	{
+
+	public void eat() {
 		System.out.println("Cat Eating");
 	}
-	
-	public void print()
-	{
+
+	public void print() {
 		super.eat();
 		eat();
-		
+
 	}
 
 }

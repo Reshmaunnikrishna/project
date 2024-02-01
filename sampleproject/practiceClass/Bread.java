@@ -1,15 +1,12 @@
 package practiceClass;
 
 public class Bread {
-	Bread()
-	{
+	Bread() {
 		System.out.println("Yummy Bread");
 	}
-	
-	Bread(String eat)
-	{
+
+	Bread(String eat) {
 		System.out.println("Eating bread");
 	}
-	
 
 }

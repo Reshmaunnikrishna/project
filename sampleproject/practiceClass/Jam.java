@@ -1,14 +1,13 @@
 package practiceClass;
 
-public class Jam extends Bread{
+public class Jam extends Bread {
 
 	public static void main(String[] args) {
-		Jam obj=new Jam();
-		
+		Jam obj = new Jam();
+
 	}
-	
-	Jam()
-	{
+
+	Jam() {
 		super("Eat");
 	}
 

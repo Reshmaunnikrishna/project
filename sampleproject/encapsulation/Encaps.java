@@ -5,28 +5,23 @@ public class Encaps {
 	private int pin;
 
 	public static void main(String[] args) {
-		
+
 	}
-	public void setUpi(int upi)
-	{
-		this.upi=upi;
+
+	public void setUpi(int upi) {
+		this.upi = upi;
 	}
-	
-	public int getUpi()
-	{
+
+	public int getUpi() {
 		return upi;
 	}
-	
-	public void setPin(int pin)
-	{
-		this.pin=pin;
+
+	public void setPin(int pin) {
+		this.pin = pin;
 	}
-	
-	public int getPin()
-	{
+
+	public int getPin() {
 		return pin;
 	}
-	
-	
 
 }

@@ -1,14 +1,14 @@
 package abstractclass;
 
-public class Sbi extends Bank{
+public class Sbi extends Bank {
 
 	public static void main(String[] args) {
-		Bank obj=new Sbi();
+		Bank obj = new Sbi();
 		System.out.println(obj.getRateOfInterest());
-		
+
 	}
-	public int getRateOfInterest()
-	{
+
+	public int getRateOfInterest() {
 		return 7;
 	}
 
